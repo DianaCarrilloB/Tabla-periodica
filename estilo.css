@@ -15,18 +15,23 @@ body {
 
 .elemento {
     border: 1px solid black;
-    padding: 5px;
+    padding: 4px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
 
 .elemento h2 {
     margin: 0;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .elemento p {
-    margin: 2px;
-    font-size: 12px;
+    margin: 1px;
+    font-size: 10px;
 }
 
 .metales {
