@@ -24,9 +24,18 @@ body {
     border-radius: 5px;
 }
 
+.numero {
+    font-size: 10px;
+    align-self: flex-start;
+}
+
 .elemento h2 {
     margin: 0;
     font-size: 24px;
+}
+
+.nombre {
+    font-size: 9px;
 }
 
 .elemento p {
