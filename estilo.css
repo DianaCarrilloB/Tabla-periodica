@@ -25,18 +25,21 @@ body {
     border-radius: 5px;
 }
 
-.numero {
-    font-size: 10px;
-    align-self: flex-start;
+.numero{
+    font-size:9px;
+    font-weight:bold;
+    align-self:flex-start;
 }
 
 .elemento h2 {
-    margin: 0;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 2px 0;
 }
 
-.nombre {
-    font-size: 9px;
+.nombre{
+    font-size:9px;
+    text-align:center;
 }
 
 .elemento p {
