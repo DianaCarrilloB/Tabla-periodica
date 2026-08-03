@@ -1,16 +1,29 @@
-body {
+	body {
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 10px;
 }
 
 #tabla {
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    gap: 10px;
-    justify-content: center;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 3px;
+    width: 100%;
 }
 
 .elemento {
-    border: 2px solid black;
-    padding: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    min-width: 0;
+    aspect-ratio: 1 / 1;
+}
+
+.elemento h2 {
+    margin: 0;
+    font-size: clamp(12px, 2vw, 20px);
+}
+
+.elemento p {
+    margin: 2px;
+    font-size: clamp(8px, 1vw, 14px);
 }
