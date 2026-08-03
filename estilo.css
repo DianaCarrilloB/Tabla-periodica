@@ -1,4 +1,4 @@
-	body {
+body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 10px;
@@ -7,6 +7,7 @@
 #tabla {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(7, 80px);
     gap: 3px;
     width: 100%;
 }
@@ -14,16 +15,15 @@
 .elemento {
     border: 1px solid black;
     padding: 5px;
-    min-width: 0;
-    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
 }
 
 .elemento h2 {
     margin: 0;
-    font-size: clamp(12px, 2vw, 20px);
+    font-size: 18px;
 }
 
 .elemento p {
     margin: 2px;
-    font-size: clamp(8px, 1vw, 14px);
+    font-size: 12px;
 }
