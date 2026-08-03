@@ -30,11 +30,11 @@ body {
 }
 
 .metales {
-    background-color: #cccccc;
+    background-color: blue;
 }
 
 .no-metales {
-    background-color: #c9e3db;
+    background-color: red;
 }
 
 .metaloides {
