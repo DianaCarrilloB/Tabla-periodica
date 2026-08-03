@@ -30,7 +30,7 @@ const elementos = [
         columna: 2,
         fila: 2,
         tipo: "alcalinoterreos"
-    }
+    },
     {
     numero: 5,
     simbolo: "B",
@@ -38,48 +38,48 @@ const elementos = [
     columna: 13,
     fila: 2,
     tipo: "metaloides"
-},
-{
+    },
+    {
     numero: 6,
     simbolo: "C",
     nombre: "Carbono",
     columna: 14,
     fila: 2,
     tipo: "no-metales"
-},
-{
+    },
+    {
     numero: 7,
     simbolo: "N",
     nombre: "Nitrógeno",
     columna: 15,
     fila: 2,
     tipo: "no-metales"
-},
-{
+    },
+    {
     numero: 8,
     simbolo: "O",
     nombre: "Oxígeno",
     columna: 16,
     fila: 2,
     tipo: "no-metales"
-},
-{
+    },
+    {
     numero: 9,
     simbolo: "F",
     nombre: "Flúor",
     columna: 17,
     fila: 2,
     tipo: "halogenos"
-},
-{
+    },
+    {
     numero: 10,
     simbolo: "Ne",
     nombre: "Neón",
     columna: 18,
     fila: 2,
     tipo: "gases-nobles"
-}
-];
+    }
+    ];
 
 
 const tabla = document.getElementById("tabla");
