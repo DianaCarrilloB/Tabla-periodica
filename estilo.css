@@ -34,14 +34,52 @@ body {
     font-size: 10px;
 }
 
-.metales {
-    background-color: blue;
+/* Metales alcalinos */
+.alcalinos {
+    background-color: #EE7EA0;
 }
 
-.no-metales {
-    background-color: red;
+/* Metales alcalinotérreos */
+.alcalinoterreos {
+    background-color: #F4A6B8;
 }
 
+/* Metales de transición */
+.transicion {
+    background-color: #F8C8D8;
+}
+
+/* Metales postransición */
+.postransicion {
+    background-color: #FADADD;
+}
+
+/* Metaloides */
 .metaloides {
-    background-color: #ffe2a6;
+    background-color: #F6E0A6;
+}
+
+/* No metales */
+.no-metales {
+    background-color: #C9E3DB;
+}
+
+/* Halógenos */
+.halogenos {
+    background-color: #D8B4E2;
+}
+
+/* Gases nobles */
+.gases-nobles {
+    background-color: #BFD7EA;
+}
+
+/* Lantánidos */
+.lantanidos {
+    background-color: #F7B7A3;
+}
+
+/* Actínidos */
+.actinidos {
+    background-color: #E8C1C5;
 }
