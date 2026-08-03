@@ -111,3 +111,9 @@ body {
 .nombre {
     font-size: 9px;
 }
+
+.elemento:hover {
+    transform: scale(1.08);
+    transition: 0.2s;
+    cursor: pointer;
+}
