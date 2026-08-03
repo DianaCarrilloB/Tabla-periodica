@@ -37,9 +37,10 @@ body {
     margin: 2px 0;
 }
 
-.nombre{
-    font-size:9px;
-    text-align:center;
+.nombre {
+    font-size: 9px;
+    text-align: center;
+    line-height: 1;
 }
 
 .elemento p {
