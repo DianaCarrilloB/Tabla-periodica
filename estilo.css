@@ -28,3 +28,14 @@ body {
     margin: 2px;
     font-size: 12px;
 }
+.metales {
+    background-color: #cccccc;
+}
+
+.no-metales {
+    background-color: #c9e3db;
+}
+
+.metaloides {
+    background-color: #ffe2a6;
+}
