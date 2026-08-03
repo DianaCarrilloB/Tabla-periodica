@@ -13,7 +13,7 @@ const elementos = [
         nombre: "Helio",
         columna: 18,
         fila: 1,
-        tipo: "no-metales"
+        tipo: "gases-nobles"
     },
     {
         numero: 3,
@@ -21,7 +21,7 @@ const elementos = [
         nombre: "Litio",
         columna: 1,
         fila: 2,
-        tipo: "metales"
+        tipo: "alcalinos"
     },
     {
         numero: 4,
@@ -29,7 +29,7 @@ const elementos = [
         nombre: "Berilio",
         columna: 2,
         fila: 2,
-        tipo: "metales"
+        tipo: "alcalinoterreos"
     }
 ];
 
@@ -42,10 +42,12 @@ elementos.forEach(elemento => {
     tabla.innerHTML += `
         <div class="elemento ${elemento.tipo}" 
         style="grid-column:${elemento.columna}; grid-row:${elemento.fila};">
-            
+    
+            <span class="numero">${elemento.numero}</span>
+
             <h2>${elemento.simbolo}</h2>
-            <p>${elemento.nombre}</p>
-            <p>${elemento.numero}</p>
+
+            <span class="nombre">${elemento.nombre}</span>
 
         </div>
     `;
