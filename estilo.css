@@ -197,3 +197,19 @@ h1{
 .actinidos{
     background:#9CCC65;
 }
+
+@media(max-width:900px){
+
+    .numero{
+        font-size:8px;
+    }
+
+    .simbolo{
+        font-size:16px;
+    }
+
+    .nombre{
+        font-size:6px;
+    }
+
+}
