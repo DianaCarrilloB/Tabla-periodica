@@ -5,7 +5,7 @@ const elementos = [
         nombre: "Hidrógeno",
         columna: 1,
         fila: 1,
-        tipo: "no-metales"
+        color: "hidrogeno"
     },
     {
         numero: 2,
@@ -13,7 +13,7 @@ const elementos = [
         nombre: "Helio",
         columna: 18,
         fila: 1,
-        tipo: "gases-nobles"
+        color: "grupo18"
     },
     {
         numero: 3,
@@ -21,7 +21,7 @@ const elementos = [
         nombre: "Litio",
         columna: 1,
         fila: 2,
-        tipo: "alcalinos"
+        color: "grupo1"
     },
     {
         numero: 4,
@@ -29,7 +29,7 @@ const elementos = [
         nombre: "Berilio",
         columna: 2,
         fila: 2,
-        tipo: "alcalinoterreos"
+        color: "grupo2"
     },
     {
         numero: 5,
@@ -37,7 +37,7 @@ const elementos = [
         nombre: "Boro",
         columna: 13,
         fila: 2,
-        tipo: "metaloides"
+        color: "grupo13"
     },
     {
         numero: 6,
@@ -45,7 +45,7 @@ const elementos = [
         nombre: "Carbono",
         columna: 14,
         fila: 2,
-        tipo: "no-metales"
+        color: "grupo14"
     },
     {
         numero: 7,
@@ -53,7 +53,7 @@ const elementos = [
         nombre: "Nitrógeno",
         columna: 15,
         fila: 2,
-        tipo: "no-metales"
+        color: "grupo15"
     },
     {
         numero: 8,
@@ -61,7 +61,7 @@ const elementos = [
         nombre: "Oxígeno",
         columna: 16,
         fila: 2,
-        tipo: "no-metales"
+        color: "grupo16"
     },
     {
         numero: 9,
@@ -69,7 +69,7 @@ const elementos = [
         nombre: "Flúor",
         columna: 17,
         fila: 2,
-        tipo: "halogenos"
+        color: "grupo17"
     },
     {
         numero: 10,
@@ -77,7 +77,7 @@ const elementos = [
         nombre: "Neón",
         columna: 18,
         fila: 2,
-        tipo: "gases-nobles"
+        color: "grupo18"
     },
     {
         numero: 11,
@@ -85,7 +85,7 @@ const elementos = [
         nombre: "Sodio",
         columna: 1,
         fila: 3,
-        tipo: "alcalinos"
+        color: "grupo1"
     },
     {
         numero: 12,
@@ -93,7 +93,7 @@ const elementos = [
         nombre: "Magnesio",
         columna: 2,
         fila: 3,
-        tipo: "alcalinoterreos"
+        color: "grupo2"
     },
     {
         numero: 13,
@@ -101,7 +101,7 @@ const elementos = [
         nombre: "Aluminio",
         columna: 13,
         fila: 3,
-        tipo: "postransicion"
+        color: "grupo13"
     },
     {
         numero: 14,
@@ -109,7 +109,7 @@ const elementos = [
         nombre: "Silicio",
         columna: 14,
         fila: 3,
-        tipo: "metaloides"
+        color: "grupo14"
     },
     {
         numero: 15,
@@ -117,7 +117,7 @@ const elementos = [
         nombre: "Fósforo",
         columna: 15,
         fila: 3,
-        tipo: "no-metales"
+        color: "grupo15"
     },
     {
         numero: 16,
@@ -125,7 +125,7 @@ const elementos = [
         nombre: "Azufre",
         columna: 16,
         fila: 3,
-        tipo: "no-metales"
+        color: "grupo16"
     },
     {
         numero: 17,
@@ -133,7 +133,7 @@ const elementos = [
         nombre: "Cloro",
         columna: 17,
         fila: 3,
-        tipo: "halogenos"
+        color: "grupo17"
     },
     {
         numero: 18,
@@ -141,9 +141,9 @@ const elementos = [
         nombre: "Argón",
         columna: 18,
         fila: 3,
-        tipo: "gases-nobles"
+        color: "grupo18"
     }
-    ];
+];
 
 
 const tabla = document.getElementById("tabla");
@@ -152,7 +152,7 @@ const tabla = document.getElementById("tabla");
 elementos.forEach(elemento => {
 
     tabla.innerHTML += `
-        <div class="elemento ${elemento.tipo}" 
+        <div class="elemento ${elemento.color}" 
         style="grid-column:${elemento.columna}; grid-row:${elemento.fila};">
     
             <span class="numero">${elemento.numero}</span>
