@@ -73,20 +73,15 @@ h1{
 }
 
 
-/* Número atómico */
 .numero{
     font-size:clamp(8px,1vw,14px);
 }
 
-
-/* Símbolo químico */
 .simbolo{
     font-size:clamp(14px,2vw,28px);
     font-weight:bold;
 }
 
-
-/* Nombre del elemento */
 .nombre{
     font-size:clamp(6px,0.8vw,12px);
 }
