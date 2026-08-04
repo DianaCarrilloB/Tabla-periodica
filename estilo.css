@@ -140,42 +140,62 @@ h1{
 /* Colores */
 /* ----------------------------- */
 
-.alcalinos{
+/* Hidrógeno */
+.hidrogeno{
+    background:#ECEFF1;
+}
+
+/* Grupo 1 */
+.grupo1{
     background:#E91E63;
 }
 
-.alcalinoterreos{
-    background:#F6BBD2;
+/* Grupo 2 */
+.grupo2{
+    background:#F8BBD0;
 }
 
+/* Metales de transición */
 .transicion{
-    background:#56BFF5;
+    background:#64B5F6;
 }
 
-.postransicion{
-    background:#A8D52E;
+/* Grupo 13 */
+.grupo13{
+    background:#8BC34A;
 }
 
-.metaloides{
-    background:#D59AD9;
+/* Grupo 14 */
+.grupo14{
+    background:#BA68C8;
 }
 
-.no-metales{
-    background:#ECECEC;
+/* Grupo 15 */
+.grupo15{
+    background:#ECEFF1;
 }
 
-.halogenos{
-    background:#F6C28B;
+/* Grupo 16 */
+.grupo16{
+    background:#FFCC80;
 }
 
-.gases-nobles{
-    background:#F5DB34;
+/* Grupo 17 */
+.grupo17{
+    background:#FF9800;
 }
 
+/* Grupo 18 */
+.grupo18{
+    background:#FDD835;
+}
+
+/* Lantánidos */
 .lantanidos{
-    background:#BEEBF4;
+    background:#80DEEA;
 }
 
+/* Actínidos */
 .actinidos{
-    background:#9FD34D;
+    background:#9CCC65;
 }
