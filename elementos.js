@@ -142,8 +142,152 @@ const elementos = [
         columna: 18,
         fila: 3,
         color: "grupo18"
+    },
+    {
+        numero: 19,
+        simbolo: "K",
+        nombre: "Potasio",
+        columna: 1,
+        fila: 4,
+        color: "grupo1"
+    },
+    {
+        numero: 20,
+        simbolo: "Ca",
+        nombre: "Calcio",
+        columna: 2,
+        fila: 4,
+        color: "grupo2"
+    },
+    {
+        numero: 21,
+        simbolo: "Sc",
+        nombre: "Escandio",
+        columna: 3,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+        numero: 22,
+        simbolo: "Ti",
+        nombre: "Titanio",
+        columna: 4,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+        numero: 23,
+        simbolo: "V",
+        nombre: "Vanadio",
+        columna: 5,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+        numero: 24,
+        simbolo: "Cr",
+        nombre: "Cromo",
+        columna: 6,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+        numero: 25,
+        simbolo: "Mn",
+        nombre: "Manganeso",
+        columna: 7,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+        numero: 26,
+        simbolo: "Fe",
+        nombre: "Hierro",
+        columna: 8,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+        numero: 27,
+        simbolo: "Co",
+        nombre: "Cobalto",
+        columna: 9,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+    numero: 28,
+        simbolo: "Ni",
+        nombre: "Níquel",
+        columna: 10,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+        numero: 29,
+        simbolo: "Cu",
+        nombre: "Cobre",
+        columna: 11,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+        numero: 30,
+        simbolo: "Zn",
+        nombre: "Zinc",
+        columna: 12,
+        fila: 4,
+        color: "transicion"
+    },
+    {
+        numero: 31,
+        simbolo: "Ga",
+        nombre: "Galio",
+        columna: 13,
+        fila: 4,
+        color: "grupo13"
+    },
+    {
+        numero: 32,
+        simbolo: "Ge",
+        nombre: "Germanio",
+        columna: 14,
+        fila: 4,
+        color: "grupo14"
+    },
+    {
+        numero: 33,
+        simbolo: "As",
+        nombre: "Arsénico",
+        columna: 15,
+        fila: 4,
+        color: "grupo15"
+    },
+    {
+        numero: 34,
+        simbolo: "Se",
+        nombre: "Selenio",
+        columna: 16,
+        fila: 4,
+        color: "grupo16"
+    },
+    {
+        numero: 35,
+        simbolo: "Br",
+        nombre: "Bromo",
+        columna: 17,
+        fila: 4,
+        color: "grupo17"
+    },
+    {
+        numero: 36,
+        simbolo: "Kr",
+        nombre: "Kriptón",
+        columna: 18,
+        fila: 4,
+        color: "grupo18"
     }
-];
+    ];
 
 
 const tabla = document.getElementById("tabla");
