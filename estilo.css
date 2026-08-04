@@ -48,7 +48,7 @@ h1{
 
 #tabla{
     display:grid;
-    grid-template-columns:repeat(18, minmax(0, 1fr));
+    grid-template-columns:repeat(18,minmax(0,1fr));
     gap:4px;
     width:100%;
     max-width:1400px;
