@@ -1,209 +1,249 @@
-/* ----------------------------- */
-/* Página */
-/* ----------------------------- */
+/* ============================= */
+/* ESTILOS GENERALES */
+/* ============================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
 body{
-    margin:0;
     background:#1F2A2E;
     font-family:Arial, Helvetica, sans-serif;
     color:white;
 }
 
-/* ----------------------------- */
-/* Título */
-/* ----------------------------- */
+
+/* ============================= */
+/* TÍTULO */
+/* ============================= */
+
+header{
+    padding:30px 0;
+}
 
 h1{
     text-align:center;
-    font-size:42px;
+    font-size:clamp(32px,5vw,52px);
     font-weight:300;
-    margin:30px 0;
     letter-spacing:1px;
 }
 
-/* ----------------------------- */
-/* Panel principal */
-/* ----------------------------- */
+
+/* ============================= */
+/* CONTENEDOR */
+/* ============================= */
+
+main{
+    display:flex;
+    justify-content:center;
+}
 
 .contenedor{
 
-    width:96%;
-    margin:auto;
+    width:min(96%,1400px);
 
     background:#2A373C;
 
-    border-radius:20px;
+    border-radius:22px;
 
-    padding:25px;
-
-    box-sizing:border-box;
+    padding:20px;
 
     box-shadow:0 8px 25px rgba(0,0,0,.35);
 
 }
 
-/* ----------------------------- */
-/* Tabla */
-/* ----------------------------- */
+
+/* ============================= */
+/* TABLA */
+/* ============================= */
 
 #tabla{
+
     display:grid;
+
     grid-template-columns:repeat(18,minmax(0,1fr));
+
     gap:4px;
-    width:100%;
-    max-width:1400px;
-    margin:auto;
+
 }
 
-/* ----------------------------- */
-/* Casillas */
-/* ----------------------------- */
+
+/* ============================= */
+/* ELEMENTOS */
+/* ============================= */
 
 .elemento{
-    aspect-ratio:1/1;
-    width:100%;
 
-    display:grid;
-    grid-template-rows:auto 1fr auto;
+    aspect-ratio:1/1;
 
     border-radius:8px;
-    overflow:hidden;
+
+    color:white;
+
+    display:grid;
+
+    grid-template-rows:auto 1fr auto;
 
     padding:3px;
-    box-sizing:border-box;
 
-    transition:.2s;
+    transition:
+        transform .2s,
+        box-shadow .2s;
+
+    cursor:pointer;
+
 }
 
-/* Número atómico */
+.elemento:hover{
+
+    transform:scale(1.08);
+
+    box-shadow:0 8px 18px rgba(0,0,0,.35);
+
+}
+
+
+/* Número */
 
 .numero{
+
     justify-self:start;
 
     font-size:clamp(7px,0.8vw,12px);
 
     font-weight:bold;
 
-    line-height:1;
 }
+
 
 /* Símbolo */
 
 .simbolo{
 
     align-self:center;
+
     justify-self:center;
 
-    font-size:clamp(14px,2vw,28px);
+    font-size:clamp(16px,2vw,30px);
 
     font-weight:bold;
 
     line-height:1;
+
 }
+
 
 /* Nombre */
 
 .nombre{
 
+    align-self:end;
+
     justify-self:center;
 
     text-align:center;
 
-    font-size:clamp(6px,0.7vw,10px);
+    font-size:clamp(6px,0.75vw,10px);
 
     line-height:1;
 
-    width:100%;
 }
 
-/* Hover */
 
-.elemento:hover{
+/* ============================= */
+/* COLORES */
+/* ============================= */
 
-    transform:scale(1.08);
-
-    cursor:pointer;
-
-    box-shadow:0 8px 18px rgba(0,0,0,.35);
-
-}
-
-/* ----------------------------- */
-/* Colores */
-/* ----------------------------- */
-
-/* Hidrógeno */
 .hidrogeno{
     background:#ECEFF1;
+    color:#222;
 }
 
-/* Grupo 1 */
 .grupo1{
     background:#E91E63;
 }
 
-/* Grupo 2 */
 .grupo2{
     background:#F8BBD0;
+    color:#222;
 }
 
-/* Metales de transición */
 .transicion{
     background:#64B5F6;
 }
 
-/* Grupo 13 */
 .grupo13{
     background:#8BC34A;
 }
 
-/* Grupo 14 */
 .grupo14{
     background:#BA68C8;
 }
 
-/* Grupo 15 */
 .grupo15{
     background:#ECEFF1;
+    color:#222;
 }
 
-/* Grupo 16 */
 .grupo16{
     background:#FFCC80;
+    color:#222;
 }
 
-/* Grupo 17 */
 .grupo17{
     background:#FF9800;
 }
 
-/* Grupo 18 */
 .grupo18{
     background:#FDD835;
+    color:#222;
 }
 
-/* Lantánidos */
 .lantanidos{
     background:#80DEEA;
+    color:#222;
 }
 
-/* Actínidos */
 .actinidos{
     background:#9CCC65;
+    color:#222;
 }
 
-@media(max-width:900px){
 
-    .numero{
-        font-size:8px;
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width:900px){
+
+    #tabla{
+        gap:2px;
+    }
+
+    .elemento{
+        border-radius:6px;
+    }
+
+}
+
+@media (max-width:600px){
+
+    .contenedor{
+        padding:12px;
     }
 
     .simbolo{
-        font-size:16px;
+        font-size:clamp(10px,3vw,18px);
+    }
+
+    .numero{
+        font-size:6px;
     }
 
     .nombre{
-        font-size:6px;
+        display:none;
     }
 
 }
