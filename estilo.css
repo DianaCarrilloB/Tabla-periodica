@@ -156,30 +156,35 @@ main{
 /* COLORES */
 /* ============================= */
 
-.hidrogeno{
-    background:#ECEFF1;
+.hidrogeno {
+    background: #b8c7d9;
     color:#222;
 }
 
 .grupo1{
     background:#E91E63;
+    color:#222;
 }
 
 .grupo2{
     background:#F8BBD0;
+
     color:#222;
 }
 
 .transicion{
     background:#64B5F6;
+    color:#222;
 }
 
 .grupo13{
     background:#8BC34A;
+    color:#222;
 }
 
 .grupo14{
     background:#BA68C8;
+    color:#222;
 }
 
 .grupo15{
@@ -194,6 +199,7 @@ main{
 
 .grupo17{
     background:#FF9800;
+    color:#222;
 }
 
 .grupo18{
